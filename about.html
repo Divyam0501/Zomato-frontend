@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="css/about.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png" alt="">
+        </div>
+        <ul>
+            <li><a href="login.html">Log In</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+
+        </ul>
+    </header>
+    <main>
+        <div class="about-image-container">
+            <img src="about.png" alt="About Zomato" class="about-full-image">
+            <div class="about-text-overlay">
+                We would love to hear from you!
+            </div>
+        </div>
+
+    </main>
+    <main>
+
+        <label for="Help">Help</label>
+        <select id="Help" required>
+            <option value="" disabled selected>How we can help you</option>
+            <option value="I need help with my Zomato online order.">I need help with my Zomato online order.</option>
+            <option value="I found incorrect/outdated information on a page.">I found incorrect/outdated information on
+                a page.</option>
+            <option value="There is a photo/review that is bothering me and I would like to report it.">There is a
+                photo/review that is bothering me and I would like to report it.</option>
+            <option value="Support">Support</option>
+            <option value="I have a question about Zomato's policies.">I have a question about Zomato's policies.
+            </option>
+        </select>
+
+        <div>
+            <label for="name"> Name</label>
+            <input id="name" type="text" placeholder="Enter Name" required>
+        </div>
+        <div>
+            <label for="email"> Email</label>
+            <input id="email" type="email" placeholder="Enter Email" required>
+            <div>
+                <label for="comments"> Comments</label>
+                <textarea id="comments" placeholder="Enter your comments" rows="4"></textarea>
+            </div>
+            <div>
+                <button type="submit">Submit feedback</button>
+            </div>
+
+    </main>
+    <script src="js/about.js"></script>
+</body>
+
+</html>
